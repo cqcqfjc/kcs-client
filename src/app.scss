@@ -1,0 +1,11 @@
+@import "themes/default-theme";
+@import "~taro-ui/dist/style/index.scss";
+page{
+  min-height: 100%;
+  background-color: $color-bg-base;
+  display: flex;
+  flex-direction: column;
+}
+.container-placeholder{
+  flex: auto;
+}

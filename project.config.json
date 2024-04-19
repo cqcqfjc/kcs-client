@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "kcs-client",
   "description": "考场服务客户端",
-  "appid": "touristappid",
+  "appid": "wx6d428f72c49028dc",
   "setting": {
     "urlCheck": true,
     "es6": false,

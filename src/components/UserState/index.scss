@@ -1,0 +1,36 @@
+@import "../../app.scss";
+
+.user-state {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .user-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+
+    .user-name {
+      max-width: 300px;
+      font-size: 34px;
+      font-weight: 600;
+      color: $color-text-base-inverse;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .setting {
+    margin-left: auto;
+    font-size: 38px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+  }
+}
