@@ -3,6 +3,7 @@ export default defineAppConfig({
     'pages/index/index',
     'pages/messages/index',
     'pages/personal/index',
+    'pages/personal_profile/index',
   ],
   window: {
     backgroundTextStyle: 'light',
