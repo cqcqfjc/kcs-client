@@ -3,7 +3,15 @@ export default defineAppConfig({
     'pages/index/index',
     'pages/messages/index',
     'pages/personal/index',
-    'pages/personal_profile/index',
+  ],
+  subPackages:[
+    {
+      root: 'packages/personal',
+      pages: [
+        'profile/index',
+        'security/index'
+      ]
+    }
   ],
   window: {
     backgroundTextStyle: 'light',

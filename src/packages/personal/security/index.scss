@@ -1,0 +1,13 @@
+@import "../../../themes/default-theme";
+.personal_security{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  .panel{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+  }
+}

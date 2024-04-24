@@ -1,13 +1,13 @@
+import Taro from "@tarojs/taro";
 import { FC, memo } from "react";
 import { View,Text } from "@tarojs/components";
 import { AtAvatar,AtTag } from 'taro-ui';
 import "./index.scss";
-import Taro from "@tarojs/taro";
 
 const UserState:FC=()=>{
   function navigateProfile(){
     Taro.navigateTo({
-      url: '/pages/personal_profile/index'
+      url: '/packages/personal/profile/index'
     })
   }
 
